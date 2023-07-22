@@ -1,32 +1,42 @@
 <template>
-    <pre>{{ result[0] }}</pre>
+    <pre>{{ message[0] }}</pre>
     
     <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
     <textarea v-model="message" id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
+    <button @click="submitData">submit</button>
 </template>
 <script>
+import axios from 'axios'
 export default {
     data() {
         return {
-            message: ''
+            message: [],
         }
     },
-    computed: {
-        async result() {
-            const { data: response } = await useFetch('https://khmer-converter-api.vercel.app/converter', {
-                method: 'post',
-                body: {
-                    data: [
-                        {
-                            "content": "សួស្ដីបងប្អូន"
-                        }
-                    ]
-                }
+    methods: {
+        async submitData() {
+            const data = 
+                [{
+                    content: "សួស្ដីបងប្អូន"
+                }]
+            await axios.post('https://khmer-converter-api.vercel.app/converter', 
+                [{
+                    "content": "សួស្ដីបងប្អូន"
+                }], { headers: {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS"
+  }})
+            .then((res) => {
+                console.log(res);
+                this.message = res.data
             })
-            console.log(response);
-            return response
-
+            .catch((error) => {
+                console.log(error);
+            });   
         }
+    },
+    mounted(){
+        this.submitData()
     }
 }
 </script>
