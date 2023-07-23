@@ -1,5 +1,7 @@
 <template>
-  <div>
     <InputForm />
-  </div>
 </template>
+<script>
+export default {
+}
+</script>
