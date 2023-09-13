@@ -1,13 +1,13 @@
 <template>
-    <div>
+    <div class="w-full">
         <Alert v-if="copied" />
-        <div class="grid grid-cols-2 gap-3 p-5">
+        <div class="grid grid-cols-1 gap-3 p-5">
             <div>
                 <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                     <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">អក្សរខ្មែរ</kbd>
                 </label>
                 <textarea v-model="inputValue" id="message" rows="4" class="resize-none block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="បំពេញអក្សរខ្មែរនៅទីនេះ"></textarea>
+                placeholder="បញ្ចូលអក្សរខ្មែរនៅទីនេះ"></textarea>
                 <div class="py-2">
                     <button @click="submitData" type="button" class="text-white bg-[#1da1f2] hover:bg-[#1da1f2]/90 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2">
                         <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve">
@@ -18,9 +18,9 @@
                     </button>
                 </div>
             </div>
-            <div>
+            <div v-if="result !== ''">
                 <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">អក្សរសម្រាប់ប្រើនៅលើ CapCut</kbd>
+                    <kbd class="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500 whitespace-nowrap">អក្សរសម្រាប់ប្រើនៅលើ CapCut</kbd>
                 </label>
                 <textarea disabled v-model="result" id="message" rows="4" class="resize-none block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 :placeholder="isLoading ? 'កំពុងបកប្រែ...':''"></textarea>
