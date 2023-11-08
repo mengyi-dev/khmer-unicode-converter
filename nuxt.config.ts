@@ -1,6 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   head: {
+    meta: [
+      {
+        name: "google-adsense-account",
+        content: "ca-pub-4357194654851697"
+      }
+    ],
     script: [
       {
         src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4357194654851697",
