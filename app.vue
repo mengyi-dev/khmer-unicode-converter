@@ -1,10 +1,19 @@
 <template>
-    <div class="mx-auto w-full p-5">
-        <div class="mx-auto w-full md:w-9/12">
-            <img src="@/assets/img/logo.png" width="300">
-            <InputForm />
+    <div>
+        <Head>
+          <Title>Capcut KH</Title>
+          <meta name="google-adsense-account" content="ca-pub-4357194654851697">
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4357194654851697"
+     crossorigin="anonymous"></script>
+        </Head>
+        <div class="mx-auto w-full p-5">
+            <div class="mx-auto w-full md:w-9/12">
+                <img src="@/assets/img/logo.png" width="300">
+                <InputForm />
+            </div>
         </div>
     </div>
+    
 </template>
 <script>
 export default {
