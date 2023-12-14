@@ -23,6 +23,9 @@ export default {
     head () {
         return {
           title: 'Adsence',
+            meta: [
+        { hid: 'description', name: 'description', content: 'About our company Nuxt.js ' }
+      ]
           script: [
             {
               hid: 'adsence',
