@@ -23,32 +23,6 @@ export default {
     head () {
         return {
           title: 'Adsence',
-            meta: [
-            {
-                hid: 'description',
-                name: 'description',
-                content: 'This is a great webiste site to handle font Khmer error on Capcut. What you need is just paste and copy.',
-            },
-            {
-                hid: 'og:title',
-                name: 'og:title',
-                content: 'This is a great webiste site to handle font Khmer error on Capcut. What you need is just paste and copy.',
-            },
-            {
-                hid: 'og:image',
-                property: 'og:image',
-                content: `https://avatars.githubusercontent.com/u/90229183?v=4`,
-            },
-            {
-                hid: 'og:description',
-                property: 'og:description',
-                content: this.article.description,
-            },
-            {
-                hid: 'og:url',
-                property: 'og:url',
-                content: `mengyi.site`,
-            },
           script: [
             {
               hid: 'adsence',
