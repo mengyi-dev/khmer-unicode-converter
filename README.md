@@ -1,63 +1,6 @@
-# Nuxt 3 Minimal Starter
+## Khmer Unicode Converter 
+Limon F1 | Converter | Khmer fonts — ​ពុម្ព​អក្សរ​ខ្មែរ | Capcut
+khmer text converter, unicode khmer converter, online khmer unicode converter, free khmer unicode converter, khmer script to unicode converter, convert khmer font to unicode, transliterate khmer to unicode, khmer unicode encoding, unicode khmer typography, digital khmer documents, khmer legacy font converter, limon font converter, khmer pronunciation guide, khmer dictionary integration, copy-paste khmer unicode, khmer unicode keyboard layout, khmer document translation, batch khmer unicode conversion, custom khmer unicode settings, បម្លែងអក្សរខ្មែរទៅយូនីកូដ, អក្សរខ្មែរតួអក្សរយូនីកូដ, ស្គិតស្ទូរខ្មែរយូនីកូដ
+Limon F1 font family series mainly provide Regular,Normal and other font styles.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Link for app: https://khmer-unicode-converter.vercel.app/
