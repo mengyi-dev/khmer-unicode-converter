@@ -13,6 +13,10 @@
             <div class="mx-auto w-full md:w-9/12">
                 <img src="@/assets/img/logo.png" width="300" alt="logo">
                 <InputForm />
+                <p class="mt-10 mb-2">ចូលទៅទាញយក Limon Font 👇</p>
+                <a href="https://khmersoft.net/download-font-limon-khmer-font-for-your-computer/" target="_blank">
+                  <button class="rounded-lg px-4 py-2 bg-blue-500 text-blue-100 hover:bg-blue-600 duration-300">Download Limon Font</button>
+                </a>
             </div>
         </div>
     </div>
