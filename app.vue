@@ -7,9 +7,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="google-adsense-account" content="ca-pub-4357194654851697">
       <meta name="monetag" content="0fccceb8a1b1b417dd5d073d76354632">
-      <script src="https://alwingulla.com/88/tag.min.js" data-zone="59430" async data-cfasync="false"></script>
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4357194654851697"
   crossorigin="anonymous"></script>
+      <script src="https://alwingulla.com/88/tag.min.js" data-zone="59430" async data-cfasync="false"></script>
     </Head>
     <div class="mx-auto w-full p-5">
       <div class="mx-auto w-full md:w-9/12">
