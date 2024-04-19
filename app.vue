@@ -6,6 +6,7 @@
       <meta name="keywords" content="khmer text converter, unicode khmer converter, online khmer unicode converter, free khmer unicode converter, khmer script to unicode converter, convert khmer font to unicode, transliterate khmer to unicode, khmer unicode encoding, unicode khmer typography, digital khmer documents, khmer legacy font converter, limon font converter, khmer pronunciation guide, khmer dictionary integration, copy-paste khmer unicode, khmer unicode keyboard layout, khmer document translation, batch khmer unicode conversion, custom khmer unicode settings, បម្លែងអក្សរខ្មែរទៅយូនីកូដ, អក្សរខ្មែរតួអក្សរយូនីកូដ, ស្គិតស្ទូរខ្មែរយូនីកូដ">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="google-adsense-account" content="ca-pub-4357194654851697">
+      <meta name="monetag" content="0fccceb8a1b1b417dd5d073d76354632">
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4357194654851697"
   crossorigin="anonymous"></script>
     </Head>
