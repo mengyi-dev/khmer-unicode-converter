@@ -11,6 +11,7 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+      <script type='text/javascript' src='//pl26298009.effectiveratecpm.com/e6/44/b6/e644b672f9f6acd6ae49bcbaca8026f7.js'></script>
     </Head>
 
     <div class="bg-blue-900 min-h-screen text-white">
