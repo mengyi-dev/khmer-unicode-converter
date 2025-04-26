@@ -97,11 +97,7 @@ export default {
     }
   },
   mounted() {
-    const script = document.createElement('script')
-    script.src = '//pl26298009.effectiveratecpm.com/e6/44/b6/e644b672f9f6acd6ae49bcbaca8026f7.js'
-    script.type = 'text/javascript'
-    script.async = true
-    document.head.appendChild(script)
+    this.addAdScript()
   },
   methods: {
     async submitData() {
@@ -110,7 +106,9 @@ export default {
         const response = await axios.post('https://khmer-converter-api.vercel.app/converter', 
           [{
             "content": this.inputValue
-          }])
+          }],
+          { headers: { 'Access-Control-Allow-Origin': '*' } } // Allow cross-site requests
+        )
         this.result = response.data[0]['result']
       } catch (error) {
         console.error(error)
@@ -137,10 +135,18 @@ export default {
     },
     toggleDarkMode() {
       // logic for dark mode toggle
+    },
+    addAdScript() {
+      const script = document.createElement('script')
+      script.src = ''
+      script.type = 'text/javascript'
+      script.async = true
+      document.head.appendChild(script)
     }
   }
 }
 </script>
+
 <style>
 body {
   font-family: "Fasthand", "Inter", sans-serif;
@@ -152,6 +158,4 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-
-
 </style>
