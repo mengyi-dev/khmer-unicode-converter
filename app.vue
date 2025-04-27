@@ -138,7 +138,7 @@ export default {
     },
     addAdScript() {
       const script = document.createElement('script')
-      script.src = ''
+      script.src = '//pl26298009.profitableratecpm.com/e6/44/b6/e644b672f9f6acd6ae49bcbaca8026f7.js'
       script.type = 'text/javascript'
       script.async = true
       document.head.appendChild(script)
