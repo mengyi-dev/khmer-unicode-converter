@@ -148,12 +148,12 @@ export default {
           'params' : {}
         };
       `;
-      document.head.appendChild(atOptionsScript); // 👈 now it's added to <head>
-
+      document.body.appendChild(atOptionsScript);
+    
       const invokeScript = document.createElement('script');
       invokeScript.type = 'text/javascript';
       invokeScript.src = '//www.highperformanceformat.com/e1e5e181a5b44c1701b717f3c213e68d/invoke.js';
-      document.head.appendChild(invokeScript); // 👈 also added to <head>
+      document.body.appendChild(invokeScript);
     }
   }
 }
