@@ -12,7 +12,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     </Head>
-
+    <div id="header"></div>
     <div class="bg-blue-900 min-h-screen text-white">
       <div class="container mx-auto p-5">
         <header class="flex flex-row sm:flex-row justify-between items-center py-4 border-b border-blue-700">
@@ -148,12 +148,13 @@ export default {
           'params' : {}
         };
       `;
+      let header = document.getElementById('header');
       document.body.appendChild(atOptionsScript);
     
       const invokeScript = document.createElement('script');
       invokeScript.type = 'text/javascript';
       invokeScript.src = '//www.highperformanceformat.com/e1e5e181a5b44c1701b717f3c213e68d/invoke.js';
-      document.body.appendChild(invokeScript);
+      header.appendChild(invokeScript);
     }
   }
 }
