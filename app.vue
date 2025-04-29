@@ -137,24 +137,11 @@ export default {
       // logic for dark mode toggle
     },
     addAdScript() {
-      const atOptionsScript = document.createElement('script');
-      atOptionsScript.type = 'text/javascript';
-      atOptionsScript.innerHTML = `
-        atOptions = {
-          'key' : 'e1e5e181a5b44c1701b717f3c213e68d',
-          'format' : 'iframe',
-          'height' : 90,
-          'width' : 728,
-          'params' : {}
-        };
-      `;
-      let header = document.getElementById('header');
-      document.body.appendChild(atOptionsScript);
-    
-      const invokeScript = document.createElement('script');
-      invokeScript.type = 'text/javascript';
-      invokeScript.src = '//www.highperformanceformat.com/e1e5e181a5b44c1701b717f3c213e68d/invoke.js';
-      header.appendChild(invokeScript);
+      const script = document.createElement('script')
+      script.src = '//pl26298009.profitableratecpm.com/e6/44/b6/e644b672f9f6acd6ae49bcbaca8026f7.js'
+      script.type = 'text/javascript'
+      script.async = true
+      document.head.appendChild(script)
     }
   }
 }
